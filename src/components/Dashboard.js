@@ -39,37 +39,27 @@ const Dashboard = () => {
     isNewSelected,
     areAllSelected
   ) => {
-    console.log(isTopSelected, isNewSelected, areAllSelected);
-    if (isTopSelected) {
-      let foundGames = baseFilter(stringGame).filter((game) => game.top);
 
-      setSearchedGames(foundGames);
+    if (isTopSelected) {
+      setSearchedGames(baseFilter(stringGame).filter((game) => game.top));
     }
 
     if (isNewSelected) {
-      let foundGames = baseFilter(stringGame).filter((game) => game.new);
-
-      setSearchedGames(foundGames);
+      setSearchedGames(baseFilter(stringGame).filter((game) => game.new));
     }
 
     if (areAllSelected) {
-      let foundGames = baseFilter(stringGame);
-      console.log(foundGames);
-      setSearchedGames(foundGames);
+      setSearchedGames(baseFilter(stringGame));
     }
 
     if (isTopSelected && isNewSelected) {
-      let foundGames = baseFilter(stringGame)
-        .filter((game) => game.top)
-        .filter((game) => game.new);
-
-      setSearchedGames(foundGames);
+      setSearchedGames(baseFilter(stringGame)
+      .filter((game) => game.top)
+      .filter((game) => game.new));
     }
 
     if (!isTopSelected && !isNewSelected && !areAllSelected) {
-      let foundGames = baseFilter(stringGame);
-
-      setSearchedGames(foundGames);
+      setSearchedGames(baseFilter(stringGame));
     }
   };
 
