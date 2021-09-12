@@ -1,0 +1,63 @@
+[
+        {
+            "name": "Jumping Jack Cash",
+            "img_url": "https://images.prismic.io/gameaccount/eb931e89-f8a7-46d1-a781-2942593ddf49_gameType.1163.jpg?auto=compress,format",
+            "top": true,
+            "new": false
+        },
+        {
+            "name": "Wild Turkey",
+            "img_url": "https://images.prismic.io/snoqualmie/fb2f0dcb-689b-404b-9a82-7ff304e608dc_gameType.1023.jpg?auto=compress,format",
+            "top": false,
+            "new": true
+        },
+        {
+            "name": "Zoltar",
+            "img_url": "https://images.prismic.io/snoqualmie/dfb65f05-f643-4d7e-aea0-2057b1ead0e6_gameType.3577.jpg?auto=compress,format",
+            "top": true,
+            "new": false
+        },
+        {
+            "name": "Beticus Maximus",
+            "img_url": "https://images.prismic.io/snoqualmie/67696b73-46b6-4b15-9a0b-3f36671cfe40_gameType.2265.jpg?auto=compress,format",
+            "top": true,
+            "new": true
+        },
+        {
+            "name": "French roulette",
+            "img_url": "https://images.prismic.io/snoqualmie/36fde517-5488-4095-9fe7-d683e183182a_gameType.1830.jpg?auto=compress,format",
+            "top": false,
+            "new": false
+        },
+        {
+            "name": "Great Tiger",
+            "img_url": "https://images.prismic.io/gameaccount/ce65f021-f7d7-4c0b-8d42-98aaa85adc2c_gameType.2081.jpg?auto=compress,format",
+            "top": false,
+            "new": true
+        },
+        {
+            "name": "Fox Trot",
+            "img_url": "https://images.prismic.io/snoqualmie/ea00b32e-bc9d-41ce-af7a-3b0926e7df8f_gameType.4199.jpg?auto=compress,format",
+            "top": true,
+            "new": false
+        },
+        {
+            "name": "Cash noire",
+            "img_url": "https://images.prismic.io/snoqualmie/2aef4214-1793-4ca1-a60a-0df927e8ef92_gameType.4025.jpg?auto=compress,format",
+            "top": true,
+            "new": true
+        },
+        {
+            "name": "Rise of maya",
+            "img_url": "https://images.prismic.io/gameaccount/ea316038-5faf-45ab-9758-73c4656afe2e_gameType.3734.jpg?auto=compress,format",
+            "top": false,
+            "new": false
+        },
+        {
+            "name": "Jackpot inferno",
+            "img_url": "https://images.prismic.io/gameaccount/7d5c18cf-36c3-466e-bd3d-78d7d8ee2667_gameType.1646.jpg?auto=compress,format",
+            "top": false,
+            "new": true
+        }
+
+]
